@@ -7,7 +7,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class MatrixTest {
-     Matrix M;
+    Matrix M;
     @Before
     public void setUp() throws Exception {
         M=new Matrix(3,2);
@@ -33,8 +33,8 @@ public class MatrixTest {
         int Arr2[][]={{10,10},{10,10},{10,10}};
         m3.set_matrix(Arr2);
 
-       Matrix m4=M.add(m1,m2);
-       assertEquals("err",m3.arr,m4.arr);
+        Matrix m4=M.add(m1,m2);
+        assertEquals("err",m3.arr,m4.arr);
     }
     @Test
     public void add1() {

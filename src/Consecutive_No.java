@@ -12,7 +12,7 @@ public class Consecutive_No {
         for(int i=1;i<arr1.length;i++)
         {
             if(arr1[i]-arr1[i-1]!=1)
-             return false;
+                return false;
 
         }
         return true;

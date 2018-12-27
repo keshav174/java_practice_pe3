@@ -1,21 +1,21 @@
-  public class StringException {
-        public static void main(String args[]){
+public class StringException {
+    public static void main(String args[]){
 
 
-            try{
+        try{
 
-                throw new Exception("Encountered Exception");
-
-            }
-            catch (Exception ex){
-                System.out.println(ex);
-
-            }
-            finally {
-                System.out.println("Entered catch block");
-            }
-
-
+            throw new Exception("Encountered Exception");
 
         }
+        catch (Exception ex){
+            System.out.println(ex);
+
+        }
+        finally {
+            System.out.println("Entered catch block");
+        }
+
+
+
+    }
 }

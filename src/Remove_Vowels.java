@@ -9,8 +9,8 @@ public class Remove_Vowels {
         String []arr=new String[str.length];
         for(int i=0;i<str.length;i++)
         {
-           arr[i]= str[i].replaceAll("[aeiou]", "");
-          //  arr[i]=str[i];
+            arr[i]= str[i].replaceAll("[aeiou]", "");
+            //  arr[i]=str[i];
 
         }
         return arr;
@@ -24,7 +24,7 @@ public class Remove_Vowels {
 
         String[] str=new String[size];
         for(int i=0;i<size;i++)
-        str[i]=in.next();
+            str[i]=in.next();
 
         String [] res=remove_vowels(str);
         for(int i=0;i<res.length;i++)
